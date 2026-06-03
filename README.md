@@ -39,15 +39,13 @@ Ensure your datasets are placed exactly within a `data` directory at your root p
    cd c:\store-intelligence-system
    
 ### Activate your local virtual environment:
-   ```powershell
+   
    .\venv\Scripts\activate
 
  
-**### Boot up the FastAPI production server using Uvicorn:**
+### Boot up the FastAPI production server using Uvicorn:
    ```powershell
       python -m uvicorn app.app.app.main:app --reload
-
-
 
 
 
