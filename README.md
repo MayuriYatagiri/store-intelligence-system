@@ -37,13 +37,18 @@ Ensure your datasets are placed exactly within a `data` directory at your root p
 1. Navigate into the project root directory:
    ```powershell
    cd c:\store-intelligence-system
+   
 ### Activate your local virtual environment:
    ```powershell
-.\venv\Scripts\activate
+   .\venv\Scripts\activate
+
 
 ### Boot up the FastAPI production server using Uvicorn:
    ```powershell
-python -m uvicorn app.app.app.main:app --reload
+      python -m uvicorn app.app.app.main:app --reload
+
+
+
 
 
 Open your web browser and navigate to the interactive dashboard to test endpoints live:
