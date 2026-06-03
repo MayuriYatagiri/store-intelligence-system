@@ -42,8 +42,8 @@ Ensure your datasets are placed exactly within a `data` directory at your root p
    ```powershell
    .\venv\Scripts\activate
 
-
-### Boot up the FastAPI production server using Uvicorn:
+ 
+**### Boot up the FastAPI production server using Uvicorn:**
    ```powershell
       python -m uvicorn app.app.app.main:app --reload
 
@@ -51,5 +51,5 @@ Ensure your datasets are placed exactly within a `data` directory at your root p
 
 
 
-Open your web browser and navigate to the interactive dashboard to test endpoints live:
+**Open your web browser and navigate to the interactive dashboard to test endpoints live:**
 👉 http://127.0.0.1:8000/docs
