@@ -44,7 +44,6 @@ Ensure your datasets are placed exactly within a `data` directory at your root p
 
  
 ### Boot up the FastAPI production server using Uvicorn:
-   ```powershell
       python -m uvicorn app.app.app.main:app --reload
 
 
